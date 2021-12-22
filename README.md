@@ -48,11 +48,11 @@ We download the chinese pretrained model checkpoints from the following links:
 The script **train.py** acts as a main function to the project, you can run the experiments by the following commands.
 
 ```Shell
-# LSTM w/o Profile on titan_xp
+# LSTM w/o Profile on TITAN Xp
 python train.py -g -fs -es -uf -bs 8 -lr 0.0006
-# LSTM w/ Profile on titan_xp
+# LSTM w/ Profile on TITAN Xp
 python train.py -g -fs -es -uf -ui -bs 8 -lr 0.0004
-# BERT w/o Profile on tesla_v100-pcie-32gb
+# BERT w/o Profile on Tesla V100s PCIE 32GB
 python train.py -g -fs -es -uf -up -mt XLNet -bs 8 -lr 0.001 -blr 4e-05
 # BERT w/ Profile on Tesla V100 PCIE 32GB
 python train.py -g -fs -es -uf -up -ui -mt ELECTRA -bs 8 -lr 0.0008 -blr 4e-05
