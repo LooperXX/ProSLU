@@ -9,18 +9,26 @@ If you use any source codes or the datasets included in this toolkit in your wor
 <pre>
 ...
 </pre>
-![example](img/example.jpg)
+<div align=center>
+  <img src="img/example.jpg" alt="example" width="600pt" height="355pt"/>
+</div>
 
 In the following, we will guide you how to use this repository step by step.
 
 ## Workflow
-![framework](img/annotation.jpg)
+<div align=center>
+  <img src="img/annotation.jpg" alt="framework">
+</div>
 
 ## Architecture
-![framework](img/framework.jpg)
+<div align=center>
+  <img src="img/framework.jpg" alt="framework"/>
+</div>
 
 ## Results
-![result](img/result.jpg)
+<div align=center>
+  <img src="img/result.jpg" alt="result"/ />
+</div>
 
 ## Preparation
 
