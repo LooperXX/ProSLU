@@ -2,7 +2,7 @@
 
 This repository contains the official `PyTorch` implementation of the paper: 
 
-**Text is no more Enough! A Benchmark for Profile-based Spoken Language Understanding**. [Xiao Xu*](http://ir.hit.edu.cn/~xxu/), [Libo Qin*](http://ir.hit.edu.cn/~lbqin/), Kaiji Chen, Guoxing Wu, Linlin Li, [Wanxiang Che](http://ir.hit.edu.cn/~car/). ***AAAI 2022***. [[Paper(Arxiv)]]() [[Paper]]()
+**Text is no more Enough! A Benchmark for Profile-based Spoken Language Understanding**. [Xiao Xu*](http://ir.hit.edu.cn/~xxu/), [Libo Qin*](http://ir.hit.edu.cn/~lbqin/), Kaiji Chen, Guoxing Wu, Linlin Li, [Wanxiang Che](http://ir.hit.edu.cn/~car/). ***AAAI 2022***. [[Paper(Arxiv)]](https://arxiv.org/abs/2112.11953) [[Paper]](#)
 
 If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
