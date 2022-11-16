@@ -1,14 +1,13 @@
 # Text is no more Enough! A Benchmark for Profile-based Spoken Language Understanding
 
-This repository contains the official `PyTorch` implementation of the paper: 
+This repository contains the official `PyTorch` implementation of the paper:
 
-**Text is no more Enough! A Benchmark for Profile-based Spoken Language Understanding**. [Xiao Xu*](http://ir.hit.edu.cn/~xxu/), [Libo Qin*](http://ir.hit.edu.cn/~lbqin/), Kaiji Chen, Guoxing Wu, Linlin Li, [Wanxiang Che](http://ir.hit.edu.cn/~car/). ***AAAI 2022***. [[Paper(Arxiv)]](https://arxiv.org/abs/2112.11953) [[Paper]](#)
+**Text is no more Enough! A Benchmark for Profile-based Spoken Language Understanding**.
 
-If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
+[Xiao Xu*](http://ir.hit.edu.cn/~xxu/), [Libo Qin*](http://ir.hit.edu.cn/~lbqin/), Kaiji Chen, Guoxing Wu, Linlin Li, [Wanxiang Che](http://ir.hit.edu.cn/~car/).
 
-<pre>
-...
-</pre>
+***AAAI 2022***. [[Paper(Arxiv)]](https://arxiv.org/abs/2112.11953) [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/21411)
+
 <div align=center>
   <img src="img/example.jpg" alt="example" width="600pt" height="355pt"/>
 </div>
@@ -74,3 +73,21 @@ If you have any question, please issue the project or email [me](mailto:xxu@ir.h
 - We are highly grateful for the open-source knowledge graph!
   - [CN-DBpedia](http://kw.fudan.edu.cn/apis/cndbpedia/)
   - [OwnThink](https://www.ownthink.com/docs/kg/)
+
+## Citation
+If you use the source code or the dataset in this repository, please cite our paper.
+```
+@article{Xu_Qin_Chen_Wu_Li_Che_2022,
+  title        = {Text Is No More Enough! A Benchmark for Profile-Based Spoken Language Understanding},
+  volume       = {36},
+  url          = {https://ojs.aaai.org/index.php/AAAI/article/view/21411},
+  doi          = {10.1609/aaai.v36i10.21411},
+  abstractnote = {Current researches on spoken language understanding (SLU) heavily are limited to a simple setting: the plain text-based SLU that takes the user utterance as input and generates its corresponding semantic frames (e.g., intent and slots). Unfortunately, such a simple setting may fail to work in complex real-world scenarios when an utterance is semantically ambiguous, which cannot be achieved by the text-based SLU models. In this paper, we first introduce a new and important task, Profile-based Spoken Language Understanding (ProSLU), which requires the model that not only relies on the plain text but also the supporting profile information to predict the correct intents and slots. To this end, we further introduce a large-scale human-annotated Chinese dataset with over 5K utterances and their corresponding supporting profile information (Knowledge Graph (KG), User Profile (UP), Context Awareness (CA)). In addition, we evaluate several state-of-the-art baseline models and explore a multi-level knowledge adapter to effectively incorporate profile information. Experimental results reveal that all existing text-based SLU models fail to work when the utterances are semantically ambiguous and our proposed framework can effectively fuse the supporting information for sentence-level intent detection and token-level slot filling. Finally, we summarize key challenges and provide new points for future directions, which hopes to facilitate the research.},
+  number       = {10},
+  journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  author       = {Xu, Xiao and Qin, Libo and Chen, Kaiji and Wu, Guoxing and Li, Linlin and Che, Wanxiang},
+  year         = {2022},
+  month        = {Jun.},
+  pages        = {11575-11585}
+}
+```
