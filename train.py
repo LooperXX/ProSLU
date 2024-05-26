@@ -38,6 +38,6 @@ if __name__ == "__main__":
     process.train()
 
     mylogger.info('\nAccepted performance: ' + str(process.validate(
-        os.path.join(args.save_dir, "models/model.pkl"),
-        os.path.join(args.save_dir, "models/dataset.pkl")
+        os.path.join(args.save_dir, "model/model.pkl"),
+        os.path.join(args.save_dir, "model/dataset.pkl")
     )) + " at test dataset;\n")

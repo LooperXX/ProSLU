@@ -268,7 +268,7 @@ class Processor(object):
             self.model = torch.load(model_path, map_location=torch.device('cpu'))
             self.dataset = torch.load(dataset_path, map_location=torch.device('cpu'))
 
-        self.dataset.quick_build_test(self.args.data_dir, 'test.txt')
+        self.dataset.quick_build_test(self.args.data_dir, 'test.json')
         mylogger.info('load {} to test'.format(self.args.data_dir))
 
         # Get the sentence list in test dataset.
